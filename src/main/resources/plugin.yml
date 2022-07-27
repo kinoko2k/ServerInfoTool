@@ -1,0 +1,21 @@
+name: ServerTpsTool
+version: '${project.version}'
+main: com.kinoko2k.servertpstool.Servertpstool
+api-version: 1.19
+authors: [ Kinoko_2K ]
+description: ServerTpsTool and ping.
+website: kinoko2k.github.io
+
+commands:
+  ping:
+    description: pppppppppppppppppppppppppppppppong
+    usage: /<command>
+  playerlist:
+    description: playerlist
+    usage: /<command>
+
+permissions:
+  servertps.player:
+    default: true
+  servertps.op:
+    default: op
